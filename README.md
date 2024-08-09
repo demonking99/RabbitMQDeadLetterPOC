@@ -27,8 +27,12 @@ rabbitmqadmin declare binding source=my_dlx_exchange destination=my_dlx_queue
     "IsEncrypted": false,
     "Values": {
         "AzureWebJobsStorage": "UseDevelopmentStorage=true",
-        "FUNCTIONS_INPROC_NET8_ENABLED": "1",
-        "FUNCTIONS_WORKER_RUNTIME": "dotnet"
+        "FUNCTIONS_WORKER_RUNTIME": "dotnet-isolated",
+        "RabbitMqSettings__ConnectionString": "amqp://guest:guest@localhost:5672/",
+        "RabbitMqSettings__QueueName": "my_queue",
+        "RabbitMqSettings__ExchangeName": "my_exchange",
+        "RabbitMqSettings__ErrorQueueName": "my_dlx_queue",
+        "RabbitMqSettings__ErrorExchangeName": "my_dlx_exchange"
     }
 }
 ```
