@@ -8,7 +8,7 @@ using System.Threading.Tasks;
 
 namespace RabbitMQ.DLX.POC
 {
-    public class RabbitMqService : IRabbitMqService, IDisposable
+    public class RabbitMqService : IRabbitMqService
     {
         private readonly IConnection _connection;
         private readonly IModel _channel;
