@@ -1,48 +1,53 @@
 # .NET Core
-bin/
-obj/
-project.lock.json
-project.fragment.lock.json
-artifacts/
-*.dll
-*.exe
-*.pdb
-*.cache
-*.log
+bin/                          # Build outputs
+obj/                          # Intermediate files
+project.lock.json             # .NET Core lock file (if used)
+project.fragment.lock.json    # Fragment lock file (if used)
+artifacts/                     # Build artifacts
+*.dll                          # Dynamic-link libraries
+*.exe                          # Executable files
+*.pdb                          # Debugging symbols
+*.cache                        # Cache files
+*.log                          # Log files
 
 # Azure Functions
-local.settings.json
-.host/
-*.funcignore
+local.settings.json            # Local settings (e.g., connection strings)
+.host/                         # Azure Functions host files
+*.funcignore                   # Files to exclude from deployment package
+
+# Visual Studio
+.vs/                          # Visual Studio solution and project settings
+.vs/**/                       # All subdirectories and files within .vs/
 
 # VS Code
-.vscode/
-.history/
+.vscode/                       # VS Code settings directory
+.history/                      # VS Code local history
 
 # Rider
-.idea/
+.idea/                         # JetBrains Rider project settings
 
 # User-specific files
-*.suo
-*.user
-*.userosscache
-*.sln.docstates
+*.suo                         # Solution user options
+*.user                        # User-specific files
+*.userosscache                # User-specific OS cache
+*.sln.docstates               # Solution document states
 
 # OS-specific files
-.DS_Store
-Thumbs.db
+.DS_Store                     # macOS Finder metadata
+Thumbs.db                     # Windows thumbnail cache
+Desktop.ini                   # Windows desktop settings
 
 # Node.js
-node_modules/
-npm-debug.log
-yarn-error.log
+node_modules/                 # Node.js dependencies
+npm-debug.log                 # NPM debug log
+yarn-error.log                # Yarn error log
 
 # JetBrains Rider
-.idea/
+.idea/                         # Rider project settings (already included above)
 
 # Mac System Files
-.DS_Store
+.DS_Store                     # macOS Finder metadata
 
 # Windows System Files
-Thumbs.db
-Desktop.ini
+Thumbs.db                     # Windows thumbnail cache
+Desktop.ini                   # Windows desktop settings

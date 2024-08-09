@@ -1,0 +1,58 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\SROY\\source\\repos\\RabbitMQ.DLX.POC\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{5DFBFA73-5363-473D-BD83-B950958590AB}|RabbitMQ.DLX.POC\\RabbitMQ.DLX.POC.csproj|c:\\users\\sroy\\source\\repos\\rabbitmq.dlx.poc\\rabbitmq.dlx.poc\\processrabbitmqmessages.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5DFBFA73-5363-473D-BD83-B950958590AB}|RabbitMQ.DLX.POC\\RabbitMQ.DLX.POC.csproj|solutionrelative:rabbitmq.dlx.poc\\processrabbitmqmessages.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5DFBFA73-5363-473D-BD83-B950958590AB}|RabbitMQ.DLX.POC\\RabbitMQ.DLX.POC.csproj|c:\\users\\sroy\\source\\repos\\rabbitmq.dlx.poc\\rabbitmq.dlx.poc\\rabbitmq.dlx.poc.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{5DFBFA73-5363-473D-BD83-B950958590AB}|RabbitMQ.DLX.POC\\RabbitMQ.DLX.POC.csproj|solutionrelative:rabbitmq.dlx.poc\\rabbitmq.dlx.poc.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 2,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{cce594b6-0c39-4442-ba28-10c64ac7e89f}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "RabbitMQ.DLX.POC",
+              "DocumentMoniker": "C:\\Users\\SROY\\source\\repos\\RabbitMQ.DLX.POC\\RabbitMQ.DLX.POC\\RabbitMQ.DLX.POC.csproj",
+              "RelativeDocumentMoniker": "RabbitMQ.DLX.POC\\RabbitMQ.DLX.POC.csproj",
+              "ToolTip": "C:\\Users\\SROY\\source\\repos\\RabbitMQ.DLX.POC\\RabbitMQ.DLX.POC\\RabbitMQ.DLX.POC.csproj",
+              "RelativeToolTip": "RabbitMQ.DLX.POC\\RabbitMQ.DLX.POC.csproj",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAcAAABVAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2024-08-09T10:10:14.485Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "ProcessRabbitMQMessages.cs",
+              "DocumentMoniker": "C:\\Users\\SROY\\source\\repos\\RabbitMQ.DLX.POC\\RabbitMQ.DLX.POC\\ProcessRabbitMQMessages.cs",
+              "RelativeDocumentMoniker": "RabbitMQ.DLX.POC\\ProcessRabbitMQMessages.cs",
+              "ToolTip": "C:\\Users\\SROY\\source\\repos\\RabbitMQ.DLX.POC\\RabbitMQ.DLX.POC\\ProcessRabbitMQMessages.cs*",
+              "RelativeToolTip": "RabbitMQ.DLX.POC\\ProcessRabbitMQMessages.cs*",
+              "ViewState": "AQIAAAYAAAAAAAAAAAAAABMAAAAxAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-09T10:08:18.913Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -20,3 +20,15 @@ rabbitmqadmin declare binding source=my_dlx_exchange destination=my_dlx_queue
 ```
 
 ### Check Code inside for AzureFunction Implementation.
+
+## local.settings.json
+```json
+{
+    "IsEncrypted": false,
+    "Values": {
+        "AzureWebJobsStorage": "UseDevelopmentStorage=true",
+        "FUNCTIONS_INPROC_NET8_ENABLED": "1",
+        "FUNCTIONS_WORKER_RUNTIME": "dotnet"
+    }
+}
+```
